@@ -12,7 +12,7 @@ domains = {
         'expired':'2021-01-01 00:00:00',
         'buttoname':'探索星球',
         'siteicon':'/front/images/avatar.png',
-        'sitename':'燕汇财富健康球',
+        'sitename':'燕汇财富健康星球',
         'sitedesc':'您养燕子一阵子燕子养您一辈子',
         'greeting':'作任务拿积分获云石建燕屋，欢迎探索国祥健康燕汇财富星球。',
         },
