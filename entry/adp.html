@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- <meta http-equiv="Refresh" content="3;url={{link}}" /> -->
+  <title>loading</title>
+  <script src="https://unpkg.com/vue"></script>  
+</head>
+
+<body>
+  <div id="app">
+  </div>
+
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+		link:'http://www.deyi.me',
+      },
+      methods: {
+        humanizeURL: function (url) {
+          return url
+            .replace(/^https?:\/\//, '')
+            .replace(/\/$/, '')
+        }
+      },
+	  
+	created: function(){
+		console.log(this.link);
+		window.location.href = this.link;
+	  }
+	  
+    })
+  </script>
+</body>
+</html>
